@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page_registration">
+
+    <div>
+        <label for="name">Your Name</label> <br><br>
+        <input type="text" class="input_text" placeholder="Your Name" id="name" />
+    </div> <br>
+
+    <div>
+        <label for="email">Your Email</label> <br><br>
+        <input class="input_text" type="text" placeholder="Your Email" id="email" />
+    </div> <br>
+
+    <div>
+        <label for="username">Enter Your Username</label> <br><br>
+        <input type="text" class="input_text" placeholder="Enter Your Username" id="username" />
+    </div> <br>
+    <div>
+        <label for="password">Enter Your Password</label> <br><br>
+        <input type="text" class="input_text" placeholder="Enter Your Password" id="password" />
+    </div> <br>
+    <div>
+        <label for="confirm">Confirm Your Password</label> <br><br>
+        <input type="text" class="input_text" placeholder="Confirm Your Password" id="confirm" />
+    </div> <br><br>
+
+    <div id="errorMessage" class="successMessage"></div>
+
+    <div>
+        <button class="button" onclick="check()">Register</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

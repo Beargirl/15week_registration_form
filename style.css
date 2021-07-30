@@ -1,0 +1,27 @@
+.page_registration {
+    background-color: dodgerblue;
+    text-align: center;
+    margin-top: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: honeydew;
+}
+
+.input_text {
+    padding: 0.7em;
+}
+
+.button {
+    width: 15em;
+    height: 3em;
+    color: black;
+    font-weight: bold;
+}
+
+
+#errorMessage {
+    color: red;
+}
+
+.successMessage {
+    color: lime;
+}
