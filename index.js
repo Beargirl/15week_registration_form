@@ -13,12 +13,8 @@ function check() {
     document.getElementById('errorMessage').innerHTML = '';
     document.getElementById('successMessage').innerHTML = '';
 
-    let isValid = true; 
-
         if(email.value === '')
-        document.getElementById('errorMessage').innerHTML+= "Ваш e-mail не заполнен! <br>";
-
-    let isVAlid = 
+        document.getElementById('errorMessage').innerHTML+= "Ваш e-mail не заполнен! <br>"; 
         if(name.value === '')
         document.getElementById('errorMessage').innerHTML+= "Поле Имя не заполнено! <br>"
         if(username.value === '')
